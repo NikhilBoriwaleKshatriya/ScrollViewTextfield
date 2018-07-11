@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FFABA4720F6056900756B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFABA4620F6056900756B49 /* AppDelegate.swift */; };
+		8FFABA4920F6056900756B49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFABA4820F6056900756B49 /* ViewController.swift */; };
+		8FFABA4C20F6056900756B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FFABA4A20F6056900756B49 /* Main.storyboard */; };
+		8FFABA4E20F6056900756B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FFABA4D20F6056900756B49 /* Assets.xcassets */; };
+		8FFABA5120F6056900756B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FFABA4F20F6056900756B49 /* LaunchScreen.storyboard */; };
+		8FFABA5C20F6056900756B49 /* ScrollViewTextfieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFABA5B20F6056900756B49 /* ScrollViewTextfieldTests.swift */; };
+		8FFABA6720F6056900756B49 /* ScrollViewTextfieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFABA6620F6056900756B49 /* ScrollViewTextfieldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FFABA5820F6056900756B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FFABA3B20F6056900756B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FFABA4220F6056900756B49;
+			remoteInfo = ScrollViewTextfield;
+		};
+		8FFABA6320F6056900756B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FFABA3B20F6056900756B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FFABA4220F6056900756B49;
+			remoteInfo = ScrollViewTextfield;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FFABA4320F6056900756B49 /* ScrollViewTextfield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewTextfield.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FFABA4620F6056900756B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FFABA4820F6056900756B49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FFABA4B20F6056900756B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FFABA4D20F6056900756B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FFABA5020F6056900756B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FFABA5220F6056900756B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FFABA5720F6056900756B49 /* ScrollViewTextfieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewTextfieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FFABA5B20F6056900756B49 /* ScrollViewTextfieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTextfieldTests.swift; sourceTree = "<group>"; };
+		8FFABA5D20F6056900756B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FFABA6220F6056900756B49 /* ScrollViewTextfieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewTextfieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FFABA6620F6056900756B49 /* ScrollViewTextfieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTextfieldUITests.swift; sourceTree = "<group>"; };
+		8FFABA6820F6056900756B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FFABA4020F6056900756B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FFABA5420F6056900756B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FFABA5F20F6056900756B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FFABA3A20F6056900756B49 = {
+			isa = PBXGroup;
+			children = (
+				8FFABA4520F6056900756B49 /* ScrollViewTextfield */,
+				8FFABA5A20F6056900756B49 /* ScrollViewTextfieldTests */,
+				8FFABA6520F6056900756B49 /* ScrollViewTextfieldUITests */,
+				8FFABA4420F6056900756B49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FFABA4420F6056900756B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FFABA4320F6056900756B49 /* ScrollViewTextfield.app */,
+				8FFABA5720F6056900756B49 /* ScrollViewTextfieldTests.xctest */,
+				8FFABA6220F6056900756B49 /* ScrollViewTextfieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FFABA4520F6056900756B49 /* ScrollViewTextfield */ = {
+			isa = PBXGroup;
+			children = (
+				8FFABA4620F6056900756B49 /* AppDelegate.swift */,
+				8FFABA4820F6056900756B49 /* ViewController.swift */,
+				8FFABA4A20F6056900756B49 /* Main.storyboard */,
+				8FFABA4D20F6056900756B49 /* Assets.xcassets */,
+				8FFABA4F20F6056900756B49 /* LaunchScreen.storyboard */,
+				8FFABA5220F6056900756B49 /* Info.plist */,
+			);
+			path = ScrollViewTextfield;
+			sourceTree = "<group>";
+		};
+		8FFABA5A20F6056900756B49 /* ScrollViewTextfieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FFABA5B20F6056900756B49 /* ScrollViewTextfieldTests.swift */,
+				8FFABA5D20F6056900756B49 /* Info.plist */,
+			);
+			path = ScrollViewTextfieldTests;
+			sourceTree = "<group>";
+		};
+		8FFABA6520F6056900756B49 /* ScrollViewTextfieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FFABA6620F6056900756B49 /* ScrollViewTextfieldUITests.swift */,
+				8FFABA6820F6056900756B49 /* Info.plist */,
+			);
+			path = ScrollViewTextfieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FFABA4220F6056900756B49 /* ScrollViewTextfield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FFABA6B20F6056900756B49 /* Build configuration list for PBXNativeTarget "ScrollViewTextfield" */;
+			buildPhases = (
+				8FFABA3F20F6056900756B49 /* Sources */,
+				8FFABA4020F6056900756B49 /* Frameworks */,
+				8FFABA4120F6056900756B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollViewTextfield;
+			productName = ScrollViewTextfield;
+			productReference = 8FFABA4320F6056900756B49 /* ScrollViewTextfield.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FFABA5620F6056900756B49 /* ScrollViewTextfieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FFABA6E20F6056900756B49 /* Build configuration list for PBXNativeTarget "ScrollViewTextfieldTests" */;
+			buildPhases = (
+				8FFABA5320F6056900756B49 /* Sources */,
+				8FFABA5420F6056900756B49 /* Frameworks */,
+				8FFABA5520F6056900756B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FFABA5920F6056900756B49 /* PBXTargetDependency */,
+			);
+			name = ScrollViewTextfieldTests;
+			productName = ScrollViewTextfieldTests;
+			productReference = 8FFABA5720F6056900756B49 /* ScrollViewTextfieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FFABA6120F6056900756B49 /* ScrollViewTextfieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FFABA7120F6056900756B49 /* Build configuration list for PBXNativeTarget "ScrollViewTextfieldUITests" */;
+			buildPhases = (
+				8FFABA5E20F6056900756B49 /* Sources */,
+				8FFABA5F20F6056900756B49 /* Frameworks */,
+				8FFABA6020F6056900756B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FFABA6420F6056900756B49 /* PBXTargetDependency */,
+			);
+			name = ScrollViewTextfieldUITests;
+			productName = ScrollViewTextfieldUITests;
+			productReference = 8FFABA6220F6056900756B49 /* ScrollViewTextfieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FFABA3B20F6056900756B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = nikhilboriwale;
+				TargetAttributes = {
+					8FFABA4220F6056900756B49 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					8FFABA5620F6056900756B49 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FFABA4220F6056900756B49;
+					};
+					8FFABA6120F6056900756B49 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FFABA4220F6056900756B49;
+					};
+				};
+			};
+			buildConfigurationList = 8FFABA3E20F6056900756B49 /* Build configuration list for PBXProject "ScrollViewTextfield" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FFABA3A20F6056900756B49;
+			productRefGroup = 8FFABA4420F6056900756B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FFABA4220F6056900756B49 /* ScrollViewTextfield */,
+				8FFABA5620F6056900756B49 /* ScrollViewTextfieldTests */,
+				8FFABA6120F6056900756B49 /* ScrollViewTextfieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FFABA4120F6056900756B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FFABA5120F6056900756B49 /* LaunchScreen.storyboard in Resources */,
+				8FFABA4E20F6056900756B49 /* Assets.xcassets in Resources */,
+				8FFABA4C20F6056900756B49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FFABA5520F6056900756B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FFABA6020F6056900756B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FFABA3F20F6056900756B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FFABA4920F6056900756B49 /* ViewController.swift in Sources */,
+				8FFABA4720F6056900756B49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FFABA5320F6056900756B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FFABA5C20F6056900756B49 /* ScrollViewTextfieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FFABA5E20F6056900756B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FFABA6720F6056900756B49 /* ScrollViewTextfieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FFABA5920F6056900756B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FFABA4220F6056900756B49 /* ScrollViewTextfield */;
+			targetProxy = 8FFABA5820F6056900756B49 /* PBXContainerItemProxy */;
+		};
+		8FFABA6420F6056900756B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FFABA4220F6056900756B49 /* ScrollViewTextfield */;
+			targetProxy = 8FFABA6320F6056900756B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FFABA4A20F6056900756B49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FFABA4B20F6056900756B49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FFABA4F20F6056900756B49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FFABA5020F6056900756B49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FFABA6920F6056900756B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FFABA6A20F6056900756B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FFABA6C20F6056900756B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScrollViewTextfield/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.nikhilboriwale.ScrollViewTextfield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FFABA6D20F6056900756B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScrollViewTextfield/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.nikhilboriwale.ScrollViewTextfield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FFABA6F20F6056900756B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScrollViewTextfieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.nikhilboriwale.ScrollViewTextfieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollViewTextfield.app/ScrollViewTextfield";
+			};
+			name = Debug;
+		};
+		8FFABA7020F6056900756B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScrollViewTextfieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.nikhilboriwale.ScrollViewTextfieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollViewTextfield.app/ScrollViewTextfield";
+			};
+			name = Release;
+		};
+		8FFABA7220F6056900756B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScrollViewTextfieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.nikhilboriwale.ScrollViewTextfieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScrollViewTextfield;
+			};
+			name = Debug;
+		};
+		8FFABA7320F6056900756B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScrollViewTextfieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.nikhilboriwale.ScrollViewTextfieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScrollViewTextfield;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FFABA3E20F6056900756B49 /* Build configuration list for PBXProject "ScrollViewTextfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FFABA6920F6056900756B49 /* Debug */,
+				8FFABA6A20F6056900756B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FFABA6B20F6056900756B49 /* Build configuration list for PBXNativeTarget "ScrollViewTextfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FFABA6C20F6056900756B49 /* Debug */,
+				8FFABA6D20F6056900756B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FFABA6E20F6056900756B49 /* Build configuration list for PBXNativeTarget "ScrollViewTextfieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FFABA6F20F6056900756B49 /* Debug */,
+				8FFABA7020F6056900756B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FFABA7120F6056900756B49 /* Build configuration list for PBXNativeTarget "ScrollViewTextfieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FFABA7220F6056900756B49 /* Debug */,
+				8FFABA7320F6056900756B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FFABA3B20F6056900756B49 /* Project object */;
+}
