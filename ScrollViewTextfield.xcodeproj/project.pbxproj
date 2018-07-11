@@ -14,6 +14,9 @@
 		8FFABA5120F6056900756B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FFABA4F20F6056900756B49 /* LaunchScreen.storyboard */; };
 		8FFABA5C20F6056900756B49 /* ScrollViewTextfieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFABA5B20F6056900756B49 /* ScrollViewTextfieldTests.swift */; };
 		8FFABA6720F6056900756B49 /* ScrollViewTextfieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFABA6620F6056900756B49 /* ScrollViewTextfieldUITests.swift */; };
+		8FFABA8C20F613C800756B49 /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FFABA8D20F613C800756B49 /* IQKeyboardManagerSwift.framework */; };
+		8FFABACA20F6246C00756B49 /* IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FFABACB20F6246C00756B49 /* IQKeyboardManager.framework */; };
+		D3DBB4C2519AA2FD17820C78 /* Pods_ScrollViewTextfield.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB001E2C23710575D377ED8 /* Pods_ScrollViewTextfield.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		389CA7859FB76081053C16F2 /* Pods-ScrollViewTextfield.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollViewTextfield.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollViewTextfield/Pods-ScrollViewTextfield.debug.xcconfig"; sourceTree = "<group>"; };
+		7B6F8E89B0A8C171E3E0CA32 /* Pods-ScrollViewTextfield.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollViewTextfield.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollViewTextfield/Pods-ScrollViewTextfield.release.xcconfig"; sourceTree = "<group>"; };
 		8FFABA4320F6056900756B49 /* ScrollViewTextfield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewTextfield.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FFABA4620F6056900756B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FFABA4820F6056900756B49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		8FFABA6220F6056900756B49 /* ScrollViewTextfieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewTextfieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FFABA6620F6056900756B49 /* ScrollViewTextfieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTextfieldUITests.swift; sourceTree = "<group>"; };
 		8FFABA6820F6056900756B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FFABA8D20F613C800756B49 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FFABACB20F6246C00756B49 /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB001E2C23710575D377ED8 /* Pods_ScrollViewTextfield.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollViewTextfield.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FFABA8C20F613C800756B49 /* IQKeyboardManagerSwift.framework in Frameworks */,
+				D3DBB4C2519AA2FD17820C78 /* Pods_ScrollViewTextfield.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FFABACA20F6246C00756B49 /* IQKeyboardManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +85,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		252D484C23F969520697DE4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				389CA7859FB76081053C16F2 /* Pods-ScrollViewTextfield.debug.xcconfig */,
+				7B6F8E89B0A8C171E3E0CA32 /* Pods-ScrollViewTextfield.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5253371CAB80D03A9EB9ED5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FFABACB20F6246C00756B49 /* IQKeyboardManager.framework */,
+				8FFABA8D20F613C800756B49 /* IQKeyboardManagerSwift.framework */,
+				DFB001E2C23710575D377ED8 /* Pods_ScrollViewTextfield.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8FFABA3A20F6056900756B49 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				8FFABA5A20F6056900756B49 /* ScrollViewTextfieldTests */,
 				8FFABA6520F6056900756B49 /* ScrollViewTextfieldUITests */,
 				8FFABA4420F6056900756B49 /* Products */,
+				5253371CAB80D03A9EB9ED5D /* Frameworks */,
+				252D484C23F969520697DE4C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +129,7 @@
 		8FFABA4520F6056900756B49 /* ScrollViewTextfield */ = {
 			isa = PBXGroup;
 			children = (
+				8FFABAC420F6236D00756B49 /* IQKeyboardManagerSwift */,
 				8FFABA4620F6056900756B49 /* AppDelegate.swift */,
 				8FFABA4820F6056900756B49 /* ViewController.swift */,
 				8FFABA4A20F6056900756B49 /* Main.storyboard */,
@@ -125,6 +158,54 @@
 			path = ScrollViewTextfieldUITests;
 			sourceTree = "<group>";
 		};
+		8FFABAC420F6236D00756B49 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8FFABAC520F6236D00756B49 /* Categories */,
+				8FFABAC620F6236D00756B49 /* Constants */,
+				8FFABAC720F6236D00756B49 /* IQTextView */,
+				8FFABAC820F6236D00756B49 /* IQToolbar */,
+				8FFABAC920F6236D00756B49 /* Resources */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = "../../../Downloads/IQKeyboardManager-master/IQKeyboardManagerSwift";
+			sourceTree = "<group>";
+		};
+		8FFABAC520F6236D00756B49 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		8FFABAC620F6236D00756B49 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8FFABAC720F6236D00756B49 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		8FFABAC820F6236D00756B49 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		8FFABAC920F6236D00756B49 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FFABA6B20F6056900756B49 /* Build configuration list for PBXNativeTarget "ScrollViewTextfield" */;
 			buildPhases = (
+				BFA75834BD3025232795C2D1 /* [CP] Check Pods Manifest.lock */,
 				8FFABA3F20F6056900756B49 /* Sources */,
 				8FFABA4020F6056900756B49 /* Frameworks */,
 				8FFABA4120F6056900756B49 /* Resources */,
+				0788DB86A089C85ECE1B630A /* [CP] Embed Pods Frameworks */,
+				9908F600233A190412D3FC55 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +337,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0788DB86A089C85ECE1B630A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ScrollViewTextfield/Pods-ScrollViewTextfield-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollViewTextfield/Pods-ScrollViewTextfield-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9908F600233A190412D3FC55 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollViewTextfield/Pods-ScrollViewTextfield-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFA75834BD3025232795C2D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollViewTextfield-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8FFABA3F20F6056900756B49 /* Sources */ = {
@@ -424,9 +562,11 @@
 		};
 		8FFABA6C20F6056900756B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 389CA7859FB76081053C16F2 /* Pods-ScrollViewTextfield.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WYMKKWGVGB;
 				INFOPLIST_FILE = ScrollViewTextfield/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.nikhilboriwale.ScrollViewTextfield;
@@ -438,9 +578,11 @@
 		};
 		8FFABA6D20F6056900756B49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B6F8E89B0A8C171E3E0CA32 /* Pods-ScrollViewTextfield.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WYMKKWGVGB;
 				INFOPLIST_FILE = ScrollViewTextfield/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.nikhilboriwale.ScrollViewTextfield;

@@ -1,0 +1,6 @@
+framework module Pods_ScrollViewTextfield {
+  umbrella header "Pods-ScrollViewTextfield-umbrella.h"
+
+  export *
+  module * { export * }
+}
